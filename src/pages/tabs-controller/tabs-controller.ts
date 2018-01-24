@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { CameraTabDefaultPagePage } from '../camera-tab-default-page/camera-tab-default-page';
-import { CartTabDefaultPagePage } from '../cart-tab-default-page/cart-tab-default-page';
-import { CloudTabDefaultPagePage } from '../cloud-tab-default-page/cloud-tab-default-page';
+import { AvaliarTemperaturaPage } from '../avaliar-temperatura/avaliar-temperatura';
 
 @Component({
   selector: 'page-tabs-controller',
@@ -11,9 +9,7 @@ import { CloudTabDefaultPagePage } from '../cloud-tab-default-page/cloud-tab-def
 export class TabsControllerPage {
   // this tells the tabs component which Pages
   // should be each tab's root Page
-  tab1Root: any = CameraTabDefaultPagePage;
-  tab2Root: any = CartTabDefaultPagePage;
-  tab3Root: any = CloudTabDefaultPagePage;
+  tab1Root: any = AvaliarTemperaturaPage;
   constructor(public navCtrl: NavController) {
   }
   
