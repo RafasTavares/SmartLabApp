@@ -11,6 +11,8 @@ export class LoginPage {
   // should be each tab's root Page
   constructor(public navCtrl: NavController) {
   }
+
+  
   goToBemVindoAoSmartLab(params){
     if (!params) params = {};
     this.navCtrl.push(BemVindoAoSmartLabPage);
